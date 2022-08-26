@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MY PORTFOLIO" />
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="LOGO.jpg">
+      <h1>MY PORTFOLIO</h1>
+      <nav>
+        <ul>
+          <li><a href="#info">INFO</a></li>
+          <li><a href="#ABOUT">ABOUT</a></li>
+          <li><a href="#QUERIES">QUERIES</a></li>
+			  </ul>
+      </nav>
+    </header>
+    <main>
+      <form method="post" action="https://twitter.com/YASHWAN01899188">
+        <section role="region" aria-labelledby="info">
+          <h2 id="info">Info</h2>
+          <div class="info">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="info">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="info">
+            <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
+            <input type="date" name="birth-date" id="birth-date" />
+          </div>
+        </section>
+        <section role="region" aria-labelledby="ABOUT">
+          <h2 id="ABOUT">ABOUT</h2>
+                    
+        </section>
+        <section role="region" aria-labelledby=QUERIES">
+          <h2 id="QUERIES">QUERIES</h2>
+          <div class="formrow">
+            <div class="question-block">
+              <label for="customer">do you have any queries?</label>
+            </div>
+            <div class="answer">
+              <select name="customer" id="customer" required>
+                <option value="">Select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+            <div class="question-block">
+              <label for="QUERIES">Do you have any quaries:</label>
+            </div>
+            <div class="QUERIES">
+              <textarea id="QUERIES" name="QUERIES" rows="5" cols="24" placeholder="how to play"></textarea>
+            </div>
+          </div>
+        </section>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer>
+      <address>
+        <a href="https://www.instagram.com/yashwanth_pvv/">MY INSTAGRAM</a><br />
+        <a href="https://twitter.com/YASHWAN01899188">MY TWITTER</a><br />
+        HYDERABAD<br />
+        TELANGANA<br />
+        INDIA
+      </address>
+    </footer>
+  </body>
+</html>
