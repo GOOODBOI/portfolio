@@ -13,8 +13,8 @@
   
   header {
     width: 100%;
-      height: 50px;
-      background-color: #1b1b32;
+    height: 5vw;
+      background-color: #34343a;
       display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,10 +23,15 @@
   }
   
   #logo {
-    width: max(100px, 18vw);
-      background-color: #0a0a23;
-    aspect-ratio: 35 / 4;
-      padding: 0.4rem;
+    width: 5vw;
+    height: 5vw;;
+background-color: #34343a;
+aspect-ratio: 35/35;
+      padding: 0px;
+      
+      display: flex;
+       
+
   }
   
   h1 {
@@ -118,39 +123,31 @@
     min-width: 55px;
   }
   
+
   .question-block {
     text-align: left;
       display: block;
       width: 100%;
       margin-top: 20px;
       padding-top: 5px;
-  }
+      
+      
+    }
   
   p {
     margin-top: 5px;
     padding-left: 15px;
     font-size: 20px;
+    
   }
   
-  p::before {
-    content: "Question #";
-  }
   
-  .question {
-    border: none;
-    padding-bottom: 0;
-  }
-  
-  .answers-list {
-    list-style: none;
-    padding: 0;
-  }
   
   button {
       display: block;
       margin: 40px auto;
       width: 40%;
-      padding: 15px;
+      padding: 30px;
       font-size: 23px;
       background: #d0d0d5;
       border: 3px solid #3b3b4f;
@@ -183,5 +180,7 @@
       white-space: nowrap;
       border: 0;
   }
+  
+  
   
   
